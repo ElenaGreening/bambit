@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../ajax/jquery-nice-select-1.1.0/css/nice-select.css">
+</head>
+<body class="body">
+<section class="section">
+    <div class="select-wrap">
+        <p class="select-par select-par-rev">Цена за месяц при покупке на
+        <select class="select">
+        <option class="option">на 1 месяц</option>
+        <option>на 3 месяца</option>
+        <option>на год</option>
+        <option>на 2 года</option>
+        </select>
+        </p>
+        <p class="select-par">Продлить тарифы, купленные до 1 августа 2021<button class="archive-button">Архив тарифов</button></p>
+    </div>
+    <div class="tariff-container">
+        <div class="tariff tariff-green">
+            <div class="tariff-top tariff-top-green">
+                <h3 class="tariff-header">Бесплатный</h3>
+                <p class="tariff-top-par">Начните работать онлайн и продавать больше с CRM</p>
+            </div>
+            <div class="tariff-bottom tariff-bottom-green">
+                <div class="img-container">
+                    <img class="fire" src="fire-logo-png-svg-free-download-fire-logo-11563553513c3wo0p7dt1.png">
+                    <h3 class="tariff-users">неограниченно пользователей</h3>
+                </div>
+                <p class="tariff-info">узнать больше</p>
+                <p class="tariff-price">Бесплатно</p>
+                <button class="button button-green">создать</button>
+                <p class="tariff-vol">5 Гб</p>
+            </div>
+        </div>
+        <div class="tariff">
+            <div class="tariff-top">
+                <h3 class="tariff-header">Базовый</h3>
+                <p class="tariff-top-par">Начните работать онлайн и продавать больше с CRM</p>
+            </div>
+            <div class="tariff-bottom">
+                <div class="img-container">
+                    <h3 class="tariff-users">5 пользователей</h3>
+                </div>
+                <p class="tariff-info">узнать больше</p>
+                <p class="tariff-price">Бесплатно</p>
+                <button class="button">купить</button>
+                <p class="tariff-vol">24 Гб</p>
+            </div>
+        </div>
+        <div class="tariff">
+            <div class="tariff-top">
+                <h3 class="tariff-header">Стандартный</h3>
+                <p class="tariff-top-par">Начните работать онлайн и продавать больше с CRM</p>
+            </div>
+            <div class="tariff-bottom">
+                <div class="img-container">
+                    <h3 class="tariff-users">50 пользователей</h3>
+                </div>
+                <p class="tariff-info">узнать больше</p>
+                <p class="tariff-price">Бесплатно</p>
+                <button class="button">купить</button>
+                <p class="tariff-vol">100 Гб</p>
+            </div>
+        </div>
+        <div class="tariff">
+            <div class="tariff-top">
+                <h3 class="tariff-header">Пофессиональный</h3>
+                <p class="tariff-top-par">Начните работать онлайн и продавать больше с CRM</p>
+            </div>
+            <div class="tariff-bottom">
+                <div class="img-container">
+                    <img class="fire" src="fire-logo-png-svg-free-download-fire-logo-11563553513c3wo0p7dt1.png">
+                    <h3 class="tariff-users">неограниченно пользователей</h3>
+                </div>
+                <p class="tariff-info">узнать больше</p>
+                <p class="tariff-price">Бесплатно</p>
+                <button class="button">купить</button>
+                <p class="tariff-vol">1024 Гб</p>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function (){
+        $('select').niceSelect();
+    });
+</script>
+<script src="../ajax/jquery-nice-select-1.1.0/js/jquery.js"></script>
+<script src="../ajax/jquery-nice-select-1.1.0/js/jquery.nice-select.js"></script>
+<script src="styles.js"></script>
+</body>
+</html>
